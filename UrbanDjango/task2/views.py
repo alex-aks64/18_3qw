@@ -2,9 +2,13 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 
 
-class index2(TemplateView):
-    template_name = 'index2.html'
 def index(request):
-    return render(request,'index.html')
+    return render(request, 'second_task/index.html')
+
+def index2(request):
+    return render(request, 'second_task/index2.html')
+
+def index3(request):
+    return render(request, 'second_task/index3.html')
 
 # Create your views here.
