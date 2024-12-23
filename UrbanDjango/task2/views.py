@@ -1,14 +1,14 @@
+
 from django.shortcuts import render
-from django.views.generic import TemplateView
 
-
-def index(request):
+def home(request):
     return render(request, 'second_task/index.html')
 
-def index2(request):
+def shop(request):
     return render(request, 'second_task/index2.html')
 
-def index3(request):
+def cart(request):
     return render(request, 'second_task/index3.html')
+# Create your views here.
 
 # Create your views here.
