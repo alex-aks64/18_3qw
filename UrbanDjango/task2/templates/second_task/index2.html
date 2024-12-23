@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
 </head>
 <body>
- <h1>Игры:</h1>
- <li>Atomic Haert: <button>Купить</button></li>
-<li>Ciberpunk 2077: <button>Купить</button></li>
-<li>PyaDay 2: <button>Купить</button></li>
- <p></p>
- <a href="index.html"> <button>Вернуться обратно</button></a>
+    <h1>Магазин</h1>
+    <ul>
+        <li>Atomic Heart: <button>Купить</button></li>
+        <li>Cyberpunk 2077: <button>Купить</button></li>
+        <li>PayDay 2: <button>Купить</button></li>
+    </ul>
+    <a href="{% url 'home' %}"><button>Вернуться на главную</button></a>
 </body>
 </html>
